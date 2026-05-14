@@ -19,7 +19,6 @@ The Core Loop:
 4. Backpropagation: Updates the tree with the results of the simulation.
 
 Optimizations:
-- Transposition Tables: Hashes board states to avoid redundant calculations.
 - Safe-Move Heuristics: Prevents the AI from making obvious mistakes during simulations.
 - State Cloning: Optimized board copying to increase simulations per second.
 
